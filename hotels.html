@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Academy: Седона</title>
+    <link href="./styles/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -49,6 +50,7 @@
     </header>
 
     <main class="main-inner">
+    <div class="catalog-background">
         <header class="inner-header">
             <h1 class="inner-header-title">Гостиницы Седоны</h1>
             <ul class="breadcrumbs">
@@ -112,10 +114,11 @@
                         </li>
                     </ul>
                 </fieldset>
-                <button class="apply" type="submit">Применить</button>
-                <button class="reset" type="submit">Сбросить</button>
+                <button class="apply button" type="submit">Применить</button>
+                <button class="reset button" type="submit">Сбросить</button>
             </form>
         </section>
+    </div>
         <section>
             <p>Найдено гостиниц:<span>38</span></p>
             <select class="select-control" aria-label="Сортировка">
@@ -220,6 +223,17 @@
                 </div>
             </div>
             <button class="button">Загрузить ещё</button>
+        </section>
+        <section class="mailing">
+            <h2>Подпишитесь на рассылку</h2>
+            <p class="subheading">Только полезная информация и никакого спама, честное бойскаутское!</p>
+            <form class="appointment-form" action="https://echo.htmlacademy.ru/" method="post">
+                <p class="appointment-form-email">
+                <label for="appointment-email">Email</label>
+                <input type="text" id="appointment-email" name="appointment-email" placeholder="Ваш e-mail">
+                </p>
+                <button class="button" type="submit">Подписаться</button>
+            </form>
         </section>
     </main>
     <footer class="page-footer">

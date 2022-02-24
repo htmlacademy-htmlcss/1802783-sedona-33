@@ -1,0 +1,137 @@
+﻿@font-face {
+    font-family: "Ptsans";
+    src: local("Ptsans"),
+            url("../fonts/ptsans-400.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Ptsans bold";
+    src: local("Ptsans bold"),
+            url("../fonts/ptsans-700.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    font-family: "Ptsans";
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 30px;
+    line-height: 36px;
+    font-family: "Ptsans bold";
+    color: #000000;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: "Ptsans bold";
+    color: #000000;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.navigation-link {
+    font-size: 20px;
+    line-height: 26px;
+    font-family: "Ptsans bold";
+    color: #000000;
+}
+
+.button {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Ptsans bold";
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.subheading {
+    font-size: 22px;
+    line-height: 36px;
+    font-family: "Ptsans";
+    color: #333333;
+}
+
+.blue-bg {
+    background-color: #83B3D3;
+    color: #FFFFFF;
+}
+
+.footer-contacts-phone {
+    font-family: "Ptsans";
+    font-size: 40px;
+    line-height: 40px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.blue-bg h3 {
+    color: #FFFFFF;
+}
+
+.lightblue-bg {
+    background-color: rgba(131, 179, 211, 0.12);
+}
+
+.mediumblue-bg {
+    background-color: rgba(131, 179, 211, 0.2);
+}
+
+.main-bg {
+    background-image: url("../images/index-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.mailing {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.bottom-bg {
+    background-image: url("../images/background-main.jpg");
+    color: #FFFFFF;
+}
+
+.bottom-bg h2 {
+    color: #FFFFFF;
+}
+
+.bottom-bg .subheading {
+    color: #FFFFFF;
+}
+
+.advantages-item {
+    list-style-type: none;
+}
+
+.catalog-background {
+    background-image: url("../images/catalog-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+}
+
+.catalog-filter-title {
+    font-family: "Ptsans bold";
+}
+
+.reset {
+    font-family: "Ptsans";
+}
